@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="title">
+                    <div class="logo">
+                        <img src="Images/777.png" alt="">
+                    </div>
+                    <h2>Lucky RACE</h2>
+                </div>
+                
+            </header>
+            <nav>
+                <ul >
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">FeedBack</a>
+                    </li>
+                </ul>
+            </nav>
+            <article>
+                <div class="bigwin" id="bigwin">
+                    <label>
+                        Nhận tiền
+                        <input name="claimcoin" type="checkbox" id="reset" onclick="reset()" value="Nhận tiền">
+                        <button onclick="close()">hiiii</button>
+                    </label>
+                </div>
+                <div class="content">
+                    <div class="box">
+                        <div class="show">
+                            <div class="check">
+                                <img id="box1" src="Images/777.png" alt="">
+                                <img id="box2" src="Images/777.png" alt="">
+                                <img id="box3" src="Images/777.png" alt="">
+                            </div>
+                        </div>
+                        <div class="control">
+                            <button onclick="random(),show()">Play</button>
+                            
+                        </div>
+                        <div class="price">
+                            <input type="number" placeholder="$100.000">
+                            <input type="range">
+                            <button onclick="bigwin()">50.000đ</button>
+                            <button>100.000đ</button>
+                            <button>200.000đ</button>
+                            <button>500.000đ</button>
+                        </div>
+                    </div>
+                    <div class="play">
+                        
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select1" type="checkbox" value="huou" onclick="Show()">
+                                <img id="huou" src="Images/huou.png" alt="">
+                            </label>
+                        </div>
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select2" type="checkbox" value="bau" onclick="Selection()">
+                                <img id="bau" src="Images/bau.png" alt="">
+                            </label>
+                        </div>
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select3" type="checkbox" value="ga" onclick="Selection()">
+                                <img id="ga" src="Images/ga.png" alt="">
+                            </label>
+                        </div>
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select4" type="checkbox" value="ca" onclick="Selection()">
+                                <img id="ca" src="Images/ca.png" alt="">
+                            </label>
+                        </div>
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select5" type="checkbox" value="cua" onclick="Selection()">
+                                <img id="cua" src="Images/cua.png" alt="">
+                            </label>
+                        </div>
+                        <div class="item">
+                            <label>
+                                <input class="inputs" id="select6" type="checkbox" value="tom" onclick="Selection()">
+                                <img id="tom" src="Images/tom.png" alt="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <footer>
+
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
